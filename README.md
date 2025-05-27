@@ -34,7 +34,6 @@ npm start
 
 2. When prompted:
    - Enter website URLs or sitemap.xml file paths (separated by commas)
-   - For multiple domains, you'll be asked to provide section names for grouping
 
 3. The script will generate a `LLMs.txt` file in the current directory with the following structure:
 ```markdown
