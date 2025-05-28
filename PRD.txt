@@ -6,8 +6,7 @@ This is a project to generate a LLMs.txt file based on one or more URLs.
 ## Features
 
 - [ ] Ask the user for one or more website URLs or the path the sitemap file. 
-- [ ] If the user provides two or more domains, ask him what section title to use for those domains. Keep all pages from that domain in the same section. 
-- [ ] Retrieve the sitemap.xml files from the URLs.
+git - [ ] Retrieve the sitemap.xml files from the URLs.
 - [ ] Parse the sitemap.xml files to get app page URLs.
 - [ ] Add a log statement for each page that is parsed to the console. Letting the user know that the page is being parsed.
 - [ ] Generate a LLMs.txt file based on the URLs and the structure below
