@@ -54,6 +54,18 @@ npm start
 - [Domain 2 Page](URL) - Page Description
 ```
 
+## Adding to Your Website
+
+1. Place the generated `llms.txt` file in the root directory of your website (same level as your homepage)
+2. Ensure the file is accessible via: `https://yourdomain.com/llms.txt`
+3. Add the following meta tag to your website's `<head>` section:
+```html
+<link rel="llms-txt" type="text/plain" href="/llms.txt" />
+```
+> [!NOTE]  
+> Depending on your hosting provider, you may not be able to place the file in the root directly. In that case, please follow the hosting providers recommendation on where to place well known files. 
+
+
 ## Requirements
 
 - Node.js 14.0.0 or higher
